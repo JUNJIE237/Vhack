@@ -1,0 +1,73 @@
+name: finalprototype
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  get: ^4.6.5
+  connectivity_plus: ^3.0.3
+  shared_preferences: ^2.0.15
+  cached_network_image: ^3.2.1
+  flutter_svg: ^1.1.6
+  flutter_svg_provider: ^1.0.3
+  intl: ^0.18.0
+  url_launcher: ^6.1.10
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Carter One
+      fonts: 
+        - asset: assets/fonts/CarterOne.ttf
+          weight: 400
+    - family: Cantarell
+      fonts: 
+        - asset: assets/fonts/CantarellRegular.ttf
+          weight: 500
+    - family: Cantata One
+      fonts: 
+        - asset: assets/fonts/CantataOneRegular.ttf
+          weight: 400
+    - family: Inter
+      fonts: 
+        - asset: assets/fonts/InterRegular.ttf
+          weight: 400
+    - family: Carattere
+      fonts: 
+        - asset: assets/fonts/CarattereRegular.ttf
+          weight: 400
+    - family: Changa One
+      fonts: 
+        - asset: assets/fonts/ChangaOne.ttf
+          weight: 400
+    - family: Century Gothic
+      fonts: 
+        - asset: assets/fonts/CenturyGothicBold.ttf
+          weight: 700
+        - asset: assets/fonts/CenturyGothic.ttf
+          weight: 400
+    - family: Calligraffitti
+      fonts: 
+        - asset: assets/fonts/CalligraffittiRegular.ttf
+          weight: 400
+    - family: Calistoga
+      fonts: 
+        - asset: assets/fonts/CalistogaRegular.ttf
+          weight: 400
+    - family: Frank Ruehl CLM
+      fonts: 
+        - asset: assets/fonts/FrankRuehlCLMMedium.ttf
+          weight: 500
+    - family: Changa
+      fonts: 
+        - asset: assets/fonts/ChangaRegular.ttf
+          weight: 400
+        - asset: assets/fonts/ChangaSemiBold.ttf
+          weight: 600
